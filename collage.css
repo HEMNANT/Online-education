@@ -1,0 +1,317 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.top_hed {
+    background-color: white;
+    height: auto;
+    min-width: 100%;
+}
+
+header {
+    min-width: 100vw;
+    background-color: transparent;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 100px;
+}
+
+
+.logo {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo-img {
+    height: 250px;
+    width: 225px;
+    margin-left: -350px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul a {
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(79, 78, 78);
+    font-weight: 600;
+    font-size: 15px;
+    transition: 0.4s ease-in-out;
+    color: black;
+    margin-left: 20px;
+}
+
+nav ul a:hover {
+    color: blue;
+}
+
+.but {
+    background-color: #01b671;
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: black;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+}
+
+.but:hover {
+    background-color: black;
+    color: wheat;
+}
+
+.hero-sec {
+    min-width: 100vw;
+}
+
+.her-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 60px 100px;
+
+}
+
+.left-box {
+    margin-left: 40px;
+    padding: 50px 0;
+}
+
+.left-para {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.started {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #01b671;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 25px;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: -20px;
+}
+
+.ready {
+    font-weight: 600;
+    color: rgb(179, 78, 78);
+    font-weight: 500;
+    margin-bottom: 8px;
+
+}
+
+.left-box h1 {
+    font-size: 34px;
+    margin-bottom: 8px;
+    line-height: 44px;
+}
+
+span {
+    color: #01b671;
+}
+
+.right-image {
+    width: 350px;
+}
+
+.features {
+    display: flex;
+    padding: 0px 100px;
+    height: 50vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.features img {
+    border-radius: 30px;
+}
+
+.boxes h2 {
+    margin-left: 21px;
+}
+
+.boxes p {
+    margin-left: 28px;
+    margin-top: -15px;
+    font-weight: 600;
+
+}
+
+.boxes {
+    box-shadow: 2px 2px 5px rgb(177, 177, 177),
+        2px 2px 5px rgb(177, 177, 177);
+    padding: 20px;
+
+}
+
+.boxes:hover {
+    padding: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: -20px -10px 15px grey;
+}
+
+.course-top {
+    padding: 0 0 100px 0;
+}
+
+.online-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+    color: #01b671;
+
+
+}
+
+
+.course-btn {
+    background-color: #01b671;
+    padding: 10px;
+    border-radius: 25px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.online-courses {
+    display: flex;
+    background-color: white;
+    height: auto;
+    padding: 0 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.online-courses img {
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
+
+.online-box {
+    background-color: white;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: flex-start;
+    justify-content: space-between;
+    box-shadow: 2px 2px 5px rgb(177, 177, 177), 2px 2px 5px rgb(177, 177, 177);
+    transition: 0.3s ease-in-out;
+}
+
+.online-box:hover {
+    box-shadow: 30px 10px 15px grey;
+    padding: 22px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.online-box p {
+    color: rgb(99, 99, 99);
+    margin: 5px 0;
+}
+
+.online-box h2 {
+    font-size: 18px;
+    color: rgb(49, 48, 48);
+    margin: 5px 0;
+}
+
+.button {
+    font-size: 14px;
+    color: white;
+    padding: 8px 20px;
+    margin: 7px 0;
+    font-weight: 500;
+}
+
+.bottom-feat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px 0 0 0;
+}
+
+.left-date {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 0px;
+}
+
+.right-stu {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 15px;
+}
+
+.left-date p,
+.right-stu p {
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: -5px;
+    font-weight: 500;
+}
+
+/* ---------testimonal ------*/
+
+.testimonal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 100px;
+    padding-bottom: 100px;
+}
+.test-title {
+    color: #01b671;
+    padding-bottom: 40px;
+
+}
+.testmonal-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 200px;
+
+}
+.testmonal-box img {
+    border-radius: 500px;
+    box-shadow: 2px 2px 5px rgb(177, 177, 177),
+    2px 2px 5px rgb(177, 177, 177);
+    margin-right: 20px;
+}
+.testmonal-box p {
+    font-weight: 600;
+}
+
+.login input{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+    
+
+}
